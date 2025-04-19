@@ -4,6 +4,7 @@
     "": {
       "name": "learning",
       "dependencies": {
+        "@jill64/svelte-ogp": "^2.0.2",
         "@jill64/typed-storage": "^4.0.1",
         "@sveltejs/adapter-cloudflare": "^7.0.1",
       },
@@ -134,6 +135,10 @@
     "@img/sharp-win32-ia32": ["@img/sharp-win32-ia32@0.33.5", "", { "os": "win32", "cpu": "ia32" }, "sha512-T36PblLaTwuVJ/zw/LaH0PdZkRz5rd3SmMHX8GSmR7vtNSP5Z6bQkExdSK7xGWyxLw4sUknBuugTelgw2faBbQ=="],
 
     "@img/sharp-win32-x64": ["@img/sharp-win32-x64@0.33.5", "", { "os": "win32", "cpu": "x64" }, "sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg=="],
+
+    "@jill64/svelte-html": ["@jill64/svelte-html@2.0.0", "", { "peerDependencies": { "@sveltejs/kit": "^2.0.0", "svelte": "^5.0.0" } }, "sha512-9B1WV8IgABlLxIH+X6dIZZKD2szEVnXryl9xeXHuVlP9ygSTVbP7X2B3KN/yQPEe2nUmi0ersDrfyySo7hdr6Q=="],
+
+    "@jill64/svelte-ogp": ["@jill64/svelte-ogp@2.0.2", "", { "dependencies": { "@jill64/svelte-html": "2.0.0" }, "peerDependencies": { "@sveltejs/kit": "^2.0.0", "svelte": "^5.0.0" } }, "sha512-BGXZ+NBu1H5Sks3ZunwcTWJiLQugi+k9FizpqS1A/bKj2NBmSU88uJF+4Jibs9D00Spy+nJ96nZC0ASGtiyxUA=="],
 
     "@jill64/typed-storage": ["@jill64/typed-storage@4.0.1", "", { "dependencies": { "ts-serde": "1.0.9" } }, "sha512-Vj7uZ+F0GxnzjxyYtP5Mx1BueX0P1819To5yac1/d22ELGcZEAAf240Y2htNpxS9DA/hkvTk3dNzzmdEBjMJrw=="],
 
