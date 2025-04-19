@@ -6,8 +6,8 @@
 
 <!-- src/+layout.svelte -->
 <OGP
-  title="Create by azilamo"
-  site_name="Counter 1"
+  title="Counter 1"
+  site_name="Create by azilamo"
   description="文字数をカウントします"
   image=""
 />
