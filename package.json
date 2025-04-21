@@ -27,6 +27,7 @@
 	"dependencies": {
 		"@jill64/svelte-ogp": "^2.0.2",
 		"@jill64/typed-storage": "^4.0.1",
-		"@sveltejs/adapter-cloudflare": "^7.0.1"
+		"@sveltejs/adapter-cloudflare": "^7.0.1",
+		"runes2": "^1.1.4"
 	}
 }
