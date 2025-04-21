@@ -11,4 +11,5 @@
   description="文字数をカウントします"
   image=""
 />
+<h1 class="font-bold text-6xl flex justify-center">Text conter</h1>
 {@render children()}
