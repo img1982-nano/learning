@@ -5,7 +5,7 @@
     let seigen = $state(0)
     let keisan = $derived(seigen-texts.length)
 </script>
-<div class="flex justify-center items-center content-center">
+<div>
     <h1 class="font-bold text-4xl">Text conter</h1>
     <input bind:value={texts} placeholder="ここにテキストを入力" />
     <input bind:value={seigen} placeholder="上限数を設定" />
